@@ -1,0 +1,230 @@
+[Starting]
+Info=|'Amnesia'|Mark Kibbe||You awake to find yourself in a cavernous complex and no idea of your current location. The last thing you remember is meeting with a Human merchant named Gyle, who was offering to hire you to explore a fallen castle.
+Buffer=Climb up the stairsClimb down the stairs
+Room=0,0
+
+[Element]
+0,0=LanternGate||Lift the gate|Bones|||
+0,1=||Move the rubble||HaminGunther||
+The gate=The gate
+Gate=Gate
+Lantern=Lantern
+Bones=Bones
+1,0=|Bloodril|Kill the Bloodrils|SpriteParchment||Enter the structure|
+2,-1=||Explore|ClubPick Axe|Higmoni #1Higmoni #2Higmoni #3|Kill the Higmonis|
+2,0=||Move the stones||||
+3,-1=Timber||Move the Debris|Body #1Body #3Body #2PrismRing|||
+Timber=Timber
+0,2=Carts||The cavern collapses!||||
+-1,2=|Duggut|||||
+Rat=Rat
+-2,2=|Rat|Kill the Rat||||
+-2,3=Anvil|Dunssa|||||
+Anvil=Anvil
+0,3=TorchChest||||||
+1,3=|Dogs|Kill the dogs|Suit|||
+2,3=Iron key|Pruit|||||
+1,4=Shovel||Climb up the stairs||||
+1,5=|Soldier #2Soldier #3Soldier #1|Combat the soldiers|Sword|||
+Climb up the stairs=Climb down the stairs
+Climb down the stairs=Climb up the stairs
+Combat the soldiers=Combat the soldiers
+3,3=BookTableSkull||||||
+Table=Table
+Parchment=Parchment
+
+[Room]
+Dir=0,0|0,1|1,0|2,0|2,-1|3,-1|0,2|-1,2|-2,2|-2,3|0,3|1,3|1,4|1,5|3,3|
+Title=Cavern A|Cavern B|Cavern E|Cavern D|Cavern C|Cavern F|Cavern H|Cavern I|Room #4|Room #6|Room #1|Room #12|Room #7|Room #8|Room #2|Main Gate|
+0,0=On
+0,1=On
+1,0=On
+2,0=On
+2,-1=On
+3,-1=On
+0,2=On
+-1,2=On
+-2,2=On
+-2,3=On
+0,3=On
+1,3=On
+2,3=On
+1,4=On
+1,5=On
+3,3=On
+
+[Description]
+0,0=The area is illuminated by a single lantern that sits on the cavern floor. The  shadows it casts dance upon the rocky walls. Two corridors exit this small chamber. One leads to the east though it is blocked by an iron portcullis. The other passageway leads north.
+0,1=The floor is littered with stones containing small copper deposits.
+The gate=The gate is lowered and heavily reinforced. As you gaze
+Gunther=Presently, he carries a Pick Axe for a weapon.
+Hamin=Hamin is a quiet, resourceful person who will tell nothing of his experiences. At the present time he has no armor.
+Gate=The gate is lowered and heavily reinforced. As you gaze through the bars you notice the piles of bones on the other side.
+Bones=There's a pile of bones most of them are humanoid.
+Club=This club is make-shift from rotted pieces of timber.
+2,0=You gaze into a small circular cavern. The walls are roughly hewn and the floor is broken with large stalagmites. Piled up along the northern wall are dozen of boulders and loose stones. From their appearance, it would suggest that they were stacked there.
+1,0=Appearing as nothing as more than an ordinary cavern, this room has a sandy floor and naturally formed walls. The ceiling stands almost 20 feet high and is cracked and overgrown with molds. Great stalagmites and stalactites stand within the confines of this 50 x 70 foot cavern.
+Sprite=This is he body of a bloodril previous victim, a Sprite. The Sprite is hidden almost completely by a large stone and his body is pierced with dozens of cuts and gashes. A burn torch lies near his hand and a small parchment.
+Parchment=It reads: Meet me in the tavern to discuss possible employment with my caravan. Signed: Gyle Hamp.
+3,-1=This cavern collapsed some time ago.
+Body #1=this Human was crushed to death in the collapse. Since he is still decaying, it is believed that the collapse happened within the last month. On his finger he wears a copper ring.
+Timber=A broken timber.
+Body #2=deeper in the debris, this Elven female was crushed by the fallen stone. She carries a small prism.
+Body #3=It appears that this Human did not die in the collapse, but rather died of dehydration afterward. His body is pinned beneath a large rock and his hand is shattered.
+Prism=The prism is a component and can be used by an spellcaster.
+0,2=Several small carts stand within this cavern and from their load of stones and debris, it is obvious that someone was mining. Unlike other areas in the complex, however, this chamber has very few support timbers and braces. As you remark about the stability of the cave, you hear the cracking of stone and the groaning of the timbers.
+Carts=The carts are filled with copper that was excavated from the walls of the chamber.
+-1,2=Like other caverns, this chamber is roughly hewn and the sandy floor is broken with loose stones and debris.
+Duggut=Dugutt is an ogre who has been mining this cavern for copper. He has a large maul that he uses for his task.
+-2,2=In the center of this 30 x 20 foot room stands a stone well that descends into water. The basin of the well is crumbling and broken and its stones litter the floor.
+-2,3=This chamber holds a large metal forge. The walls are covered with racks and shelves that contain scraps of iron, small tools and a dozen or more pouches. In the center of the room is a large anvil.
+Dunssa=Dunssa is a Dwarf adventurer who had wandered into the mining complex.
+2,3=Moving through the great hall, you notice the walls are covered with tattered tapestries and faded murals. Six large pillars stand within the hallway, holding up the vaulted ceiling almost 20 feet overhead.
+1,3=This octagonal chamber once served as a barracks. The twelve cots and  wooden footlockers that stand throughout the room are plain and unmarked. The floor is covered with a variety of furs and the eastern and western walls both support a wooden weapon rack. From cursory glance, there appears to be nothing of interest.
+1,4=It would appear that this area served as a storage area for several Humanoids. To the west is a staircase that winds its way upward. Even from here you can feel the soft breeze and see rays of sunlight shining in from above.
+1,5=Before you, across the courtyard, are dozens of Humanoid bodies. Their bloody corpses are pierced with arrows and rent with swords. Although you are uncertain as to what happened here, it is obvious the massacre was only a few hours ago.
+Soldier #1=These are the guards of Gyle who have orders to kill anyone who attempt to leave the ruins.
+Soldier #2=These are the guards of Gyle who have orders to kill anyone who attempt to leave the ruins.
+Soldier #3=These are the guards of Gyle who have orders to kill anyone who attempt to leave the ruins.
+Sword=A large sword used in melee combat.
+0,3=The floor in this area is smooth and the walls consist of finely laid bricks. Directly|south stands a closed wooden door. Carved into the wall on either side of the entrance is a sconce with a torch.
+Chest=A large iron chest.
+3,3=The floor of this octagonal chamber is littered with various pouches, bags, and other sacks of various sizes. In the center of the floor stands a single wooden table, its surface covered with books and scroll cases. The chamber appears to have been transformed into a type of storage area.
+Book=It reads: Prisoners from the dungeons of Avonnin are being used to mine iron ore from the caverns below the castle. A contract has been signed with Gyle Hamp to exchange prisoners for copper.
+Skull=Intact skull of a giant rat.
+Suit=Suit of leather (man-sized).
+side.
+through the bars you notice the piles of bones on the other
+side.
+
+[Entrance]
+0,0=For a moment you are disorientated. You look at your surroundings. The jagged stone walls, the uneven floor, and the vaulted ceiling held aloft by rotted wooden supports jostle your thoughts. You have no idea where you are or how you got here.  
+0,1=As you reach the end of the tunnel, you see a great pile of rocks and debris to the north. The wooden support beams are broken and it is obvious the ceiling collapsed. From beyond the fallen stones you hear faint voices calling for help. It would take some effort to move the blockage from the tunnel and the effort could cause another cave in.
+2,-1=After traveling some way down the tunnel, you can see the glowing light of a fire dancing in the darkness ahead of you. From here it is evident the shouts were coming from the east, however; the voices have lowered to mere whispers.
+1,0=As you gaze inward you see several small shapes laying on the floor of the chamber nearly 30 feet away.
+3,-1=The tunnel opens up into a larger chamber. It is difficult to determine the  dimensions of the room due to the jagged, roughly hewn walls. As you wander down the tunnel, you stand before a great mass of boulders and debris. Broken timbers jut outward from the collapse that blocks the entire passageway.
+-1,2=As you gaze about the vast cavern, your light does not illuminate the entire area. Before you can move forward, however, you hear a deep, guttural voice shout out from the darkness. -Who are you?- it growls.
+-2,2=As you enter the room, a giant rat emerge from the well and will attack you.
+-2,3=As you stare inward, you hear a snarl from behind the massive forge and before you can react, a Dwarf leaps forward, his hammer raised in combat. -You|won’t take me alive!- he screams.
+1,3=As you turn the corner, you see three large dogs emerge from the shadows. Their faces are nothing but twisted snarls. Moving forward they prepare to attack.
+2,3=As you move forward, your illumination falls upon a single Sprite who stands before you. -Hello!- he shouts as he waves his hand. -My name is Pruit Sunn. I can help you. Please don’t attack me.-
+1,4=Opening the door to this chamber reveals an octagonal room. Along the walls are racks containing pick axes and shovels. Piles of rags and tattered clothing lie haphazardly about. The room appears to have been ransacked recently.
+1,5=As you climb up the stairs, you finally see the sunlight and feel its warmth. To the south are the main gates that lead outward to the flat prairie lands beyond. But even as you inhale the crisp air, you smell the stench of death.
+0,3=As you ascend the stone stairs, you find yourself standing in a hallway.
+3,3=Opening the door to this 30 x 30 foot room, you gaze into a large storage chamber.
+
+[Trade]
+Duggut=Ring
+S|Duggut=The ogre accepts your offer and gives you the maul.
+Ring=Maul
+Chest=Iron key
+S|Chest=Except some dirty clothes, there is nothing else of interest in the chest.
+
+[ShowUp]
+Move the rubble=|GuntherHamin|
+Lift the gate=Bones||
+Explore=|Higmoni #1Higmoni #2Higmoni #3|Kill the Higmonis
+Kill the Higmonis=ClubPick Axe||
+Kill the Bloodrils=SpriteParchment||Enter the structure
+Move the Debris=Body #1RingBody #2Body #3Prism||
+Combat the soldiers=Sword||
+S|Sword=One of the soldiers drops his sword.
+Kill the dogs=Suit||
+
+[Resolve]
+S|Move the rubble=Carefully you remove the stones that block the tunnel. You can hear the support beams creak and groan. Dust falls down upon you as you struggle to move the debris. From beyond the blockage, you hear the voices intensify as they become aware of your efforts. At last you clear an entranceway into the cavern beyond. Standing within are two Humans. 'Thank you,' they say in unison.
+S|Lift the gate=You look at your surrondings, and you see that the caverns go on for miles and lead downward.
+S|Explore=As you travel down the tunnel, it opens up into a large cavern. From within you hear guttural voices and see several Humanoid shapes gathered around a small bonfire, casting distorted shadows on the walls. They look up at you as you stand near the entrance to the cavern. Quickly raising their Clubs and Pick Axes, they move forward in an aggressive manner. As they advance, you realize that a battle is about to begin.
+S|Kill the Bloodrils=You make a good strike on the bloodril. 
+S|Move the Debris=As you move the debris, you uncover bodies of those killed in the collapse.
+S|The cavern collapses!=You are able to escape unharmed.
+S|Kill the Rat=You kill the rat.
+S|Kill the dogs=The dogs will bark and attack without hesitation, fighting until slain.
+Climb up the stairs=Climb down the stairs
+S|Combat the soldiers=These soldiers are hard to defeat.
+S|Enter the structure=As you enter to the structure you see one bloodril coming up in your direction and then they attack.
+Gyle 'Limri' Hamp=Final Match
+
+[Movement]
+Kill the Higmonis=Higmoni #11,1
+S|Kill the Higmonis=As you achieve to kill two of those creatures, the other one runs out of the cavern.
+Kill the Bloodrils=Bloodril9,9
+1,5=Gyle 'Limri' Hamp
+Kill the Rat=Rat9,9
+Kill the dogs=Dogs9,9
+Combat the soldiers=Soldier #31,4
+S|Combat the soldiers=One soldier go for reinforcements.
+
+[Dialog]
+Gunther=What are you doing here?
+S|Gunther=My name is Gunther and he is Hamin. Neither of us know how we arrived. The last thing I remember was a conversation with a merchant named Gyle Hamp.
+Duggut=Im and adventurer, and I'm trying to find a way out of the mines. What are you doing here?
+S|Duggut=I will not attack you. I been breaking boulders into small, more manageable stones. But I'm a little confused.
+Dunssa=What happen to you?
+S|Dunssa=I wandered through some tunnels and entered into some sort of mining complex. As I began to explore, I came across some Humans who instantly attacked me. I was dragged down some tunnels and up a flight of stairs and was eventually thrown into this chamber to await someone known as Gyle Hamp. I don’t know who you are or why  you’re here but I want my freedom.
+Pruit=Im searching for Gyle Hamp, do you know him?
+S|Pruit=Gyle Hamp It’s a monster I tell you, a monster. It eats people! It would have eaten me!
+
+[Restriction]
+0,1=Move the rubble||||
+S|0,1=You must move the rubble||||
+2,0=Move the stones||||
+S|2,0=The passageway is blocked by stones||||
+0,0=Lift the gate||||
+S|0,0=The gate is blocked||||
+3,-1=Move the Debris||||
+S|3,-1=The passageway its blocked||||
+1,4=Climb up the stairs||||
+S|1,4=You must move upstairs||||
+1,0=Kill the Bloodrils||||
+S|1,0=|||
+1,3=Kill the dogs||||
+S|1,3=You can't move so far before the dogs attack you||||
+-2,2=Kill the Rat||||
+S|-2,2=Kill the Rat!||||
+1,0=||||
+S|1,0=|||
+2,-1=||||
+S|2,-1=|||
+0,2=||||
+S|0,2=|||
+-1,2=||||
+S|-1,2=|||
+-2,3=||||
+S|-2,3=|||
+0,3=||||
+S|0,3=|||
+1,3=||||
+S|1,3=|||
+2,3=||||
+S|2,3=|||
+1,5=||||
+S|1,5=|||
+3,3=||||
+S|3,3=|||
+
+[Attributes]
+Club #1=22
+Club=22
+S|Club=This club will be of some use.
+Pick Axe=22
+S|Pick Axe=Good as a weapon.
+Prism=20
+S|Prism=You can feel the magic of the prism.
+Maul=43
+S|Maul=It is very Heavy but powerful.
+Sword=34
+S|Sword=Use it wisely.
+Torch=11
+Skull=30
+S|Skull=Used for Minor Domination spells.
+Suit=11
+S|Suit=This suit of leather offers a small protection.
+
+[Ending]
+Win=You will receive recommendation for your bravery, honesty, and valor. After attending a small dinner party with the regions most prestigious nobles, you were contacted by a King's messenger who will give you 800 gold coins for your payment.
+Lost=You start to feel weak...
+Encounter=Final Match
+
+[Opponent]
+Data=Gyle 'Limri' HampPossession
